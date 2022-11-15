@@ -1,0 +1,55 @@
+.credits{
+    color: white;
+    text-decoration: none;
+
+ 
+    border-style: solid;
+    border-color: rgb(48, 56, 65);
+   
+}
+
+@media (min-width:300px){
+    .credits{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 2rem;
+    }
+    .credits-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (min-width:700px){
+    .credits{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding: 4rem;
+    }
+    .credits-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (min-width:992px){
+    .credits{
+        margin-left: 6rem;
+        margin-right: 6rem;
+        padding: 6rem;
+    }
+    .credits-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+.credits-section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.credits-section div ul li a{
+    color: white;
+    text-decoration: none;
+}

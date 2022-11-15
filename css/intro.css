@@ -1,0 +1,95 @@
+.introduction{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(48, 56, 65);
+    margin-top: 2rem;
+    background-color: rgb(30, 30, 30);
+}
+
+@media (min-width:300px){
+    .introduction{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .intro-p{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+      
+    
+    }
+}
+
+@media (min-width:700px){
+    .introduction{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+        
+    .intro-p{
+        margin-left: 2rem;
+        margin-right: 2em;
+    }
+}
+@media (min-width:992px){
+    .introduction{
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        
+    }
+    .intro-p{
+        margin-left:3rem;
+        margin-right: 3rem;
+    }
+
+}
+.intro-section{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 1rem;
+    border-color: rgb(48, 56, 65);
+    margin-bottom: 1rem;
+}
+.intro-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.intro-icon{
+    width: 75px;
+    border-radius: 75px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.intro-info{
+    color: rgb(48, 56, 65);
+ 
+}
+
+.intro-info-name{
+    color: rgb(215, 35, 35);
+    
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+.intro-info-pos{
+    color: rgb(238, 238, 238);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.intro-p{
+    color: rgb(238, 238, 238);
+    padding-bottom: 0.5rem;
+
+    font-weight: 400;
+}
+.intro-p-one{
+    font-size: 18px;
+    font-weight:700;
+}
+.intro-p-two,.intro-p-three{
+    margin-left: 1.5rem;
+}

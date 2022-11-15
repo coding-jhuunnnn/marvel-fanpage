@@ -1,0 +1,48 @@
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: rgba(238,23,31,255);
+    display: flex;
+
+    margin-bottom: 5rem;
+    z-index: 100;
+}
+.left-section
+{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoHeader{
+    height: 55px;
+}
+.right-section
+{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-section div{
+
+    height: 75px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-section a{
+    font-family: Robot,Arial;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.right-section div:hover{
+    background-color: rgb(215, 35, 35);
+}
